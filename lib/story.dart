@@ -1,11 +1,11 @@
 //TODO: Step 2 - Create a new class called Story.
 class Story{
 
-  late String _storyTitle;
-  late String _choice1;
-  late String _choice2;
+  late String storyTitle;
+  late String choice1;
+  late String choice2;
 
-  Story( this._storyTitle, this._choice1, this._choice2 );
+  Story( {storyTitle, choice1, choice2 } );
 
 }
 
